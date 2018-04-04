@@ -1,1 +1,21 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <PHPCodeStyleSettings>
+    <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
+    <option name="ALIGN_PHPDOC_PARAM_NAMES" value="true" />
+    <option name="PHPDOC_BLANK_LINES_AROUND_PARAMETERS" value="true" />
+    <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
+    <option name="LOWER_CASE_NULL_CONST" value="true" />
+    <option name="SPACE_BETWEEN_TERNARY_QUEST_AND_COLON" value="true" />
+  </PHPCodeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="SPACE_WITHIN_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_WHILE_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_FOR_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_CATCH_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_SWITCH_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+  </codeStyleSettings>
+</code_scheme>
