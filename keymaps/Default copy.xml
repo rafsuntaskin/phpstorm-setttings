@@ -7,5 +7,10 @@
     <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt o" />
+    <keyboard-shortcut first-keystroke="shift meta quote" />
+  </action>
+  <action id="MaximizeToolWindow" />
   <action id="SelectNextOccurrence" />
 </keymap>
