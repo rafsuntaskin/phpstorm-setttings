@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -10,6 +13,11 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt o" />
     <keyboard-shortcut first-keystroke="shift meta quote" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <mouse-shortcut keystroke="shift button2" />
   </action>
   <action id="MaximizeToolWindow" />
   <action id="ParameterInfo" />
