@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2de905b-ceea-46bf-bd1d-c942b1e633d7" name="testwp" url="http://localhost/testwp">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
