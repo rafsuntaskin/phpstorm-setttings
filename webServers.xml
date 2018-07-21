@@ -4,6 +4,9 @@
       <webServer id="b2de905b-ceea-46bf-bd1d-c942b1e633d7" name="testwp" url="http://localhost/testwp">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="711fdcd5-d5c8-45d9-8d46-086b475b96ec" name="FlyWheel monkey" url="https://monkeyweb.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
