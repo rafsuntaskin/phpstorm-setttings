@@ -7,6 +7,9 @@
       <webServer id="711fdcd5-d5c8-45d9-8d46-086b475b96ec" name="FlyWheel monkey" url="https://monkeyweb.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="0a309450-a7a2-4d37-baec-0a52d81b1204" name="Localhost" url="http://localhost:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
