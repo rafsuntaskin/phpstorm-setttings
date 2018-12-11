@@ -1,6 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.1.5.3" />
+    <option name="version" value="2.4.1.5-2018.1" />
     <option name="statusBarTheme" value="false" />
+    <option name="userId" value="36d74b2b:1679c4a8030:-7fff" />
+    <option name="allowDataCollection" value="true" />
   </component>
 </application>
