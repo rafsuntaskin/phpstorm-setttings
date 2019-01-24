@@ -10,6 +10,9 @@
       <webServer id="0a309450-a7a2-4d37-baec-0a52d81b1204" name="Localhost" url="http://localhost:8080">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="605b1466-0eef-4b26-b23e-97d3526e8bb3" name="LocalEvents" url="http://localevents.info">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
