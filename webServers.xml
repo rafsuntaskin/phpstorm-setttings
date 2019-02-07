@@ -13,6 +13,9 @@
       <webServer id="605b1466-0eef-4b26-b23e-97d3526e8bb3" name="LocalEvents" url="http://localevents.info">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="e305d5f5-9f3e-4bc2-9543-ad07e3d2f06f" name="localTribe" url="https://local.tribe">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
