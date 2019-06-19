@@ -16,6 +16,9 @@
       <webServer id="e305d5f5-9f3e-4bc2-9543-ad07e3d2f06f" name="localTribe" url="https://local.tribe">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="ec7a244b-f502-4e22-935d-3bf5a7554270" name="rafsunpress.mine" url="http://rafsunpress.mine">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
