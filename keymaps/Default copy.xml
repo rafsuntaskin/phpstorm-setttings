@@ -33,5 +33,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="SelectNextOccurrence" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
   <action id="Uml.ShowDiff" />
 </keymap>
