@@ -22,6 +22,9 @@
       <webServer id="38bc1c97-9a0a-448e-9d5f-0683d5d0c053" name="elementorlocal" url="https://elementor.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4f21ef5e-0ea6-4df3-be21-991ca9210a3f" name="truegarden" url="https://truegarden.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
