@@ -25,6 +25,9 @@
       <webServer id="4f21ef5e-0ea6-4df3-be21-991ca9210a3f" name="truegarden" url="https://truegarden.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="19991e85-43ab-4036-88be-70276411c821" name="flexlocal" url="http://flex.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
