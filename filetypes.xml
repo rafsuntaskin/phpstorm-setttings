@@ -1,14 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern="bkup" type="PLAIN_TEXT" />
-      <mapping pattern="styles.css" type="PLAIN_TEXT" />
-      <mapping pattern=".editor-config" type="PLAIN_TEXT" />
-      <mapping pattern="test.js" type="PLAIN_TEXT" />
-      <mapping pattern="another" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".editor-config" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern="another.css" type="tsconfig" />
     </extensionMap>
