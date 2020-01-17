@@ -28,6 +28,9 @@
       <webServer id="19991e85-43ab-4036-88be-70276411c821" name="flexlocal" url="http://flex.local">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="2ae95a51-e773-4f84-95c5-edb7f80f1660" name="Frosting" url="http://frosting.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
