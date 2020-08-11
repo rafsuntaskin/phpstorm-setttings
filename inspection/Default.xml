@@ -1,3 +1,14 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <scope name="All Changed Files" level="WEAK WARNING" enabled="true">
+      <option name="CODING_STANDARD" value="Custom" />
+      <option name="CUSTOM_RULESET_PATH" value="$USER_HOME$/Documents/devutils/tribalscents/TribalScents" />
+      <option name="SHOW_SNIFF_NAMES" value="true" />
+      <option name="USE_INSTALLED_PATHS" value="true" />
+      <option name="INSTALLED_PATHS" value="$USER_HOME$/Documents/devutils/tribalscents/TribalScents" />
+      <option name="EXTENSIONS" value="php,js,css,inc" />
+    </scope>
+    <option name="EXTENSIONS" value="php,js,css,inc" />
+  </inspection_tool>
 </profile>
