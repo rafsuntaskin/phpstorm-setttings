@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/LocalSites/localtribe/app/public/wp-content/debug.log" />
+    <file url="file://$USER_HOME$/LocalSites/localtribe/app/public/wp-content/plugins/event-tickets/src/views/tickets/orders-tc-tickets.php" value="PHP" />
   </component>
 </application>
