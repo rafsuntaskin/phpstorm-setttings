@@ -6,7 +6,6 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern="another.css" type="tsconfig" />
-      <removed_mapping ext="log" approved="true" type="Log" />
     </extensionMap>
   </component>
 </application>
