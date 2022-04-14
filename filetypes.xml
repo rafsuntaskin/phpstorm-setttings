@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="orders-tc-tickets.php" type="AUTO_DETECTED" />
+      <mapping pattern=".architecture_arm64" type="PLAIN_TEXT" />
       <mapping pattern=".editor-config" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
