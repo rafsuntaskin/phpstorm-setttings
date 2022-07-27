@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="elp" value="error_log( print_r( , 1 ) );" description="Error Log with Print" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
