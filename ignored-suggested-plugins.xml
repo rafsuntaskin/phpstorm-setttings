@@ -1,0 +1,12 @@
+<application>
+  <component name="IgnoredPluginSuggestions">
+    <option name="pluginIds">
+      <list>
+        <option value="com.jetbrains.plugins.jade" />
+        <option value="com.dmarcotte.handlebars" />
+        <option value="com.jetbrains.lang.ejs" />
+        <option value="org.intellij.plugins.postcss" />
+      </list>
+    </option>
+  </component>
+</application>
