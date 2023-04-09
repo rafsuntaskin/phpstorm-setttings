@@ -4,9 +4,9 @@
       <mapping pattern="orders-tc-tickets.php" type="AUTO_DETECTED" />
       <mapping pattern=".architecture_arm64" type="PLAIN_TEXT" />
       <mapping pattern=".editor-config" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern="another.css" type="tsconfig" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>
