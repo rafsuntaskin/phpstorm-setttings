@@ -77,5 +77,21 @@
       <action id="EditorLeft" />
       <action id="EditorPaste" />
     </macro>
+    <macro name="shift">
+      <action id="EditorDownWithSelection" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <typing text-keycode="44:0">,</typing>
+      <action id="EditorEnter" />
+      <action id="EditorBackSpace" />
+    </macro>
+    <macro name="shifter">
+      <action id="EditorLineEndWithSelection" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <typing text-keycode="44:0">,</typing>
+    </macro>
   </component>
 </application>

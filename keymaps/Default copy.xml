@@ -28,6 +28,9 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <mouse-shortcut keystroke="shift button2" />
   </action>
+  <action id="Macro.shifter">
+    <keyboard-shortcut first-keystroke="meta alt h" />
+  </action>
   <action id="Macro.temp">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
