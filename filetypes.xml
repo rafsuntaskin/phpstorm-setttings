@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="teampick.js" type="AUTO_DETECTED" />
       <mapping pattern="orders-tc-tickets.php" type="AUTO_DETECTED" />
       <mapping pattern=".architecture_arm64" type="PLAIN_TEXT" />
       <mapping pattern=".editor-config" type="PLAIN_TEXT" />
