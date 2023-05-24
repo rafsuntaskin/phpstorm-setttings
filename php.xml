@@ -4,5 +4,5 @@
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;WordPress;WordPress-Core;WordPress-Docs;WordPress-Extra;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
-  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" xdebug_return_function_value_debugging="false" />
 </application>
