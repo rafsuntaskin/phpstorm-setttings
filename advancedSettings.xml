@@ -3,6 +3,8 @@
     <option name="settings">
       <map>
         <entry key="bigger.font.in.project.view" value="true" />
+        <entry key="docker.connect.automatically" value="false" />
+        <entry key="docker.container.log.is.first.tab" value="false" />
       </map>
     </option>
   </component>
