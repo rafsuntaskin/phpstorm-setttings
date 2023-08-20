@@ -2,34 +2,37 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="b2de905b-ceea-46bf-bd1d-c942b1e633d7" name="testwp" url="http://localhost/testwp">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="711fdcd5-d5c8-45d9-8d46-086b475b96ec" name="FlyWheel monkey" url="https://monkeyweb.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="0a309450-a7a2-4d37-baec-0a52d81b1204" name="Localhost" url="http://localhost:8080">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="605b1466-0eef-4b26-b23e-97d3526e8bb3" name="LocalEvents" url="http://localevents.info">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="e305d5f5-9f3e-4bc2-9543-ad07e3d2f06f" name="localTribe" url="https://local.tribe">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="ec7a244b-f502-4e22-935d-3bf5a7554270" name="rafsunpress.mine" url="http://rafsunpress.mine">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="38bc1c97-9a0a-448e-9d5f-0683d5d0c053" name="elementorlocal" url="https://elementor.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="4f21ef5e-0ea6-4df3-be21-991ca9210a3f" name="truegarden" url="https://truegarden.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="19991e85-43ab-4036-88be-70276411c821" name="flexlocal" url="http://flex.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="2ae95a51-e773-4f84-95c5-edb7f80f1660" name="Frosting" url="http://frosting.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+      <webServer id="d6ec5385-8992-44f8-b083-42cf93e25084" name="tec-local" url="https://tec.lndo.site/">
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
