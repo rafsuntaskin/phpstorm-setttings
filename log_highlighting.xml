@@ -1,10 +1,6 @@
 <application>
   <component name="LogHighlightingSettings">
-    <parsingPatterns>
-      <LogParsingPattern name="All" pattern="^(.*?)(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?(\s(.*?))?$" uuid="db0779ce-9fd3-11ec-b909-0242ac120002" />
-    </parsingPatterns>
-    <settingsVersion>6</settingsVersion>
-    <lastAddedDefaultFormat>b5772998-bf1e-4d9d-ab41-da0b86451163,8a0e8992-94cb-4f4c-8be2-42b03609626b,e9fa2755-8390-42f5-a41e-a909c58c8cf9,db0779ce-9fd3-11ec-b909-0242ac120002</lastAddedDefaultFormat>
+    <parsingPatterns />
     <errorStripeModel>normal</errorStripeModel>
     <highlight_links>false</highlight_links>
   </component>
