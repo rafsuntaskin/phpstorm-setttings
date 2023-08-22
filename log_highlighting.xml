@@ -1,7 +1,8 @@
 <application>
   <component name="LogHighlightingSettings">
-    <parsingPatterns />
-    <errorStripeModel>normal</errorStripeModel>
-    <highlight_links>false</highlight_links>
+    <parsingPatterns>
+      <LogParsingPattern enabled="false" name="WordPress" pattern="^[(.)] ([A-Z]+) (.)" timePattern="dd-MM-yyyy HH:mm:ss" linePattern="^" uuid="c69a85aa-b9ee-4ef4-a70c-83595d690b1f" />
+    </parsingPatterns>
+    <readonlySizeThreshold>100000</readonlySizeThreshold>
   </component>
 </application>
