@@ -1,7 +1,13 @@
 <application>
   <component name="LogHighlightingSettings">
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="^\s*(e(rror)?|severe)\s*$" action="HIGHLIGHT_LINE" fg="-44176" bold="true" stripe="true" uuid="de2d3bb2-78c9-4beb-835e-d483c35c07b6" />
+      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" action="HIGHLIGHT_LINE" fg="-553876" bold="true" uuid="11ff1574-2118-4722-905a-61bec89b079e" />
+      <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" action="HIGHLIGHT_LINE" fg="-3938163" uuid="5e882ebc-2179-488b-8e1a-2fe488636f36" />
+      <LogHighlightingPattern pattern="^\s*(tribe)?\s*$" action="HIGHLIGHT_MATCH" bold="true" stripe="true" uuid="6d190aa8-df8d-4948-bc24-5ef052adfcfc" />
+    </highlightingPatterns>
     <parsingPatterns>
-      <LogParsingPattern enabled="false" name="WordPress" pattern="^[(.)] ([A-Z]+) (.)" timePattern="dd-MM-yyyy HH:mm:ss" linePattern="^" uuid="c69a85aa-b9ee-4ef4-a70c-83595d690b1f" />
+      <LogParsingPattern enabled="false" name="WordPress" pattern="^[(.)] ([A-Z]+) (.)" timePattern="dd-MMM-yyyy HH:mm:ss" linePattern="^\[" uuid="c69a85aa-b9ee-4ef4-a70c-83595d690b1f" />
     </parsingPatterns>
     <readonlySizeThreshold>100000</readonlySizeThreshold>
   </component>
