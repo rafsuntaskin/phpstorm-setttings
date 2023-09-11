@@ -8,6 +8,7 @@
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping pattern="another.css" type="tsconfig" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
