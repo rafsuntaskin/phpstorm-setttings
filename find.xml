@@ -14,8 +14,8 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.yml</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
+    <mask>*.js</mask>
     <mask>*.php</mask>
   </component>
 </application>
