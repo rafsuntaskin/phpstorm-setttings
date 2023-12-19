@@ -7,8 +7,10 @@
     <option name="pristineConfig" value="false" />
     <option name="useMaterialFont2" value="true" />
     <option name="accentColor" value="009688" />
+    <option name="secondAccentColor" />
     <option name="highlightColor" value="009665" />
+    <option name="focusColor" />
     <option name="userId" value="36d74b2b:1679c4a8030:-7fff" />
-    <option name="version" value="8.12.6" />
+    <option name="version" value="8.13.2" />
   </component>
 </application>
