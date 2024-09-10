@@ -35,6 +35,9 @@
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="MaximizeToolWindow" />
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="ParameterInfo" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
