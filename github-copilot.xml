@@ -6,5 +6,6 @@
         <entry key="*" value="true" />
       </map>
     </languageAllowList>
+    <option name="chatNaturalLanguage" value="English" />
   </component>
 </application>
