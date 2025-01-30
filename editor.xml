@@ -23,10 +23,6 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value=".inheritors" />
   </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-  </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
   </component>
