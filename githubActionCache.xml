@@ -265,6 +265,38 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="the-events-calendar/actions/.github/actions/process-changelog@main">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="action-type" value="r[false] def[generate] Whether this is to generate or amend the changelog entries (generate or amend)" />
+                  <entry key="release-date" value="r[false] def[unreleased] The release date (format: YYYY-MM-DD) for which the action should generate the changelog (default: unreleased)" />
+                  <entry key="release-version" value="r[true]  The release version for which the action should generate the changelog (e.g. 4.5.0)" />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/process-changelog/action.yml" />
+                  <entry key="expiryTime" value="1740424809022" />
+                  <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/process-changelog#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="the-events-calendar/actions" />
+                  <entry key="usesValue" value="the-events-calendar/actions/.github/actions/process-changelog@main" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="changelog" value=" The escaped changelog content" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
