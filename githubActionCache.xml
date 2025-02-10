@@ -2,6 +2,24 @@
   <component name="GitHubActionCache">
     <option name="actions">
       <map>
+        <entry key="./.docker/lint-xml-configuration">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="./.docker/lint-xml-configuration" />
+                  <entry key="expiryTime" value="1740422205361" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="./.docker/lint-xml-configuration" />
+                  <entry key="usesValue" value="./.docker/lint-xml-configuration" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="actions/cache@v4">
           <value>
             <GitHubAction>
@@ -70,8 +88,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v4/action.yml" />
-                  <entry key="expiryTime" value="1740161739639" />
+                  <entry key="expiryTime" value="1740422712150" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isResolved" value="true" />
