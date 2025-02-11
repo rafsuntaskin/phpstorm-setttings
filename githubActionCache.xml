@@ -90,6 +90,43 @@
             </GitHubAction>
           </value>
         </entry>
+        <entry key="actions/checkout@v2">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
+                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
+                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
+                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
+                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
+                  <entry key="ref" value="r[false] " />
+                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
+                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
+                  <entry key="ssh-key" value="r[false] " />
+                  <entry key="ssh-known-hosts" value="r[false] " />
+                  <entry key="ssh-strict" value="r[false] def[true]" />
+                  <entry key="submodules" value="r[false] def[false]" />
+                  <entry key="token" value="r[false] def[${{ github.token }}]" />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2/action.yml" />
+                  <entry key="expiryTime" value="1740498432792" />
+                  <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="actions/checkout" />
+                  <entry key="usesValue" value="actions/checkout@v2" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
         <entry key="actions/checkout@v4">
           <value>
             <GitHubAction>
@@ -217,6 +254,103 @@
                 <map>
                   <entry key="cache-hit" value=" A boolean value to indicate if a cache was hit." />
                   <entry key="node-version" value=" The installed node version." />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="actions/upload-artifact@v4">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="compression-level" value="r[false] def[6]" />
+                  <entry key="if-no-files-found" value="r[false] def[warn]" />
+                  <entry key="include-hidden-files" value="r[false] def[false]" />
+                  <entry key="name" value="r[false] def[artifact] Artifact name" />
+                  <entry key="overwrite" value="r[false] def[false]" />
+                  <entry key="path" value="r[true]  A file, directory or wildcard pattern that describes what to upload" />
+                  <entry key="retention-days" value="r[false] " />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v4/action.yml" />
+                  <entry key="expiryTime" value="1740497406930" />
+                  <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v4#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="actions/upload-artifact" />
+                  <entry key="usesValue" value="actions/upload-artifact@v4" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="artifact-digest" value="" />
+                  <entry key="artifact-id" value="" />
+                  <entry key="artifact-url" value="" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="jbutcher5/read-yaml@main">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="file" value="r[true]  YAML file to read from" />
+                  <entry key="key-path" value="r[true]  List of keys to follow" />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/jbutcher5/read-yaml/main/action.yml" />
+                  <entry key="expiryTime" value="1740498009774" />
+                  <entry key="githubUrl" value="https://github.com/jbutcher5/read-yaml/tree/main#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="jbutcher5/read-yaml" />
+                  <entry key="usesValue" value="jbutcher5/read-yaml@main" />
+                </map>
+              </option>
+            </GitHubAction>
+          </value>
+        </entry>
+        <entry key="octokit/request-action@v2.x">
+          <value>
+            <GitHubAction>
+              <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="mediaType" value="r[false] def[{}] Custom media type in the Accept header" />
+                  <entry key="route" value="r[true]  HTTP Verb + path as shown on https://developer.github.com/v3/" />
+                </map>
+              </option>
+              <option name="metaData">
+                <map>
+                  <entry key="downloadUrl" value="https://raw.githubusercontent.com/octokit/request-action/v2.x/action.yml" />
+                  <entry key="expiryTime" value="1740497406929" />
+                  <entry key="githubUrl" value="https://github.com/octokit/request-action/tree/v2.x#readme" />
+                  <entry key="isAction" value="true" />
+                  <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
+                  <entry key="isSuppressed" value="false" />
+                  <entry key="name" value="octokit/request-action" />
+                  <entry key="usesValue" value="octokit/request-action@v2.x" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="data" value=" Response body as string." />
+                  <entry key="headers" value=" Response headers as JSON string with lower cased header names." />
+                  <entry key="status" value=" Response status code." />
                 </map>
               </option>
             </GitHubAction>
