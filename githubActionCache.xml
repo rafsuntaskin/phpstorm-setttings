@@ -26,30 +26,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="key" value="r[true]  An explicit key for restoring and saving the cache" />
-                  <entry key="path" value="r[true]  A list of files, directories, and wildcard patterns to cache and restore" />
-                  <entry key="restore-keys" value="r[false]  An ordered list of keys to use for restoring the cache if no cache hit occurred for key" />
-                  <entry key="upload-chunk-size" value="r[false]  The chunk size used to split up large files during upload, in bytes" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v2/action.yml" />
-                  <entry key="expiryTime" value="1740428602940" />
+                  <entry key="expiryTime" value="1741662357813" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/cache" />
                   <entry key="usesValue" value="actions/cache@v2" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
                 </map>
               </option>
             </GitHubAction>
@@ -156,37 +144,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="always-auth" value="r[false] def[false] Set always-auth in npmrc." />
-                  <entry key="architecture" value="r[false]  Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default." />
-                  <entry key="cache" value="r[false]  Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm." />
-                  <entry key="cache-dependency-path" value="r[false]  Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies." />
-                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec." />
-                  <entry key="node-version" value="r[false]  Version Spec of the version to use. Examples: 12.x, 10.15.1, &gt;=10.15.0." />
-                  <entry key="node-version-file" value="r[false]  File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions." />
-                  <entry key="registry-url" value="r[false]  Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN." />
-                  <entry key="scope" value="r[false]  Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/)." />
-                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v3/action.yml" />
-                  <entry key="expiryTime" value="1740428602940" />
+                  <entry key="expiryTime" value="1741662357813" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-node/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-node" />
                   <entry key="usesValue" value="actions/setup-node@v3" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate if a cache was hit." />
-                  <entry key="node-version" value=" The installed node version." />
                 </map>
               </option>
             </GitHubAction>
@@ -335,23 +304,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="config" value="r[false]  SSH config" />
-                  <entry key="if_key_exists" value="r[false] def[fail] replace / ignore / fail" />
-                  <entry key="key" value="r[true]  SSH private key" />
-                  <entry key="known_hosts" value="r[true]  public keys of SSH servers" />
-                  <entry key="name" value="r[false] def[id_rsa] SSH key file name (default: id_rsa)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shimataro/ssh-key-action/v2/action.yml" />
-                  <entry key="expiryTime" value="1740428602940" />
+                  <entry key="expiryTime" value="1741662357813" />
                   <entry key="githubUrl" value="https://github.com/shimataro/ssh-key-action/tree/v2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="shimataro/ssh-key-action" />
                   <entry key="usesValue" value="shimataro/ssh-key-action@v2" />
@@ -408,20 +369,15 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/action-s3-utility/main/action.yml" />
-                  <entry key="expiryTime" value="1740428602940" />
+                  <entry key="expiryTime" value="1741662357812" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/action-s3-utility/tree/main#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="the-events-calendar/action-s3-utility" />
                   <entry key="usesValue" value="the-events-calendar/action-s3-utility@main" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="exists" value=" With the exists s3 helper command - \'true\' if file or directory exists, \'false\' otherwise" />
-                  <entry key="ls_output" value=" Output from \'aws s3 ls\' command" />
                 </map>
               </option>
             </GitHubAction>
