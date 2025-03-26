@@ -12,8 +12,8 @@
     <mask>*.mxml</mask>
     <mask>*.yml</mask>
     <mask>*.css</mask>
-    <mask>*.js</mask>
     <mask>*.pcss</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
