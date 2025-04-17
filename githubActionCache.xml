@@ -141,6 +141,20 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="always-auth" value="r[false] def[false] Set always-auth in npmrc." />
+                  <entry key="architecture" value="r[false]  Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default." />
+                  <entry key="cache" value="r[false]  Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm." />
+                  <entry key="cache-dependency-path" value="r[false]  Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies." />
+                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec." />
+                  <entry key="node-version" value="r[false]  Version Spec of the version to use. Examples: 12.x, 10.15.1, &gt;=10.15.0." />
+                  <entry key="node-version-file" value="r[false]  File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions." />
+                  <entry key="registry-url" value="r[false]  Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN." />
+                  <entry key="scope" value="r[false]  Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/)." />
+                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v3/action.yml" />
@@ -150,9 +164,16 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-node" />
                   <entry key="usesValue" value="actions/setup-node@v3" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="cache-hit" value=" A boolean value to indicate if a cache was hit." />
+                  <entry key="node-version" value=" The installed node version." />
                 </map>
               </option>
             </GitHubAction>
@@ -248,6 +269,12 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="mediaType" value="r[false] def[{}] Custom media type in the Accept header" />
+                  <entry key="route" value="r[true]  HTTP Verb + path as shown on https://developer.github.com/v3/" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/octokit/request-action/v2.x/action.yml" />
@@ -257,9 +284,17 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="octokit/request-action" />
                   <entry key="usesValue" value="octokit/request-action@v2.x" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="data" value=" Response body as string." />
+                  <entry key="headers" value=" Response headers as JSON string with lower cased header names." />
+                  <entry key="status" value=" Response status code." />
                 </map>
               </option>
             </GitHubAction>
