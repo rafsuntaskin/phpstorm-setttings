@@ -71,7 +71,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2/action.yml" />
-                  <entry key="expiryTime" value="1745339220726" />
+                  <entry key="expiryTime" value="1746550685834" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -155,7 +155,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/upload-artifact/v4/action.yml" />
-                  <entry key="expiryTime" value="1745339220725" />
+                  <entry key="expiryTime" value="1746550685834" />
                   <entry key="githubUrl" value="https://github.com/actions/upload-artifact/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -176,7 +176,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/jbutcher5/read-yaml/main/action.yml" />
-                  <entry key="expiryTime" value="1745339220726" />
+                  <entry key="expiryTime" value="1746550685834" />
                   <entry key="githubUrl" value="https://github.com/jbutcher5/read-yaml/tree/main#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -194,32 +194,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="mediaType" value="r[false] def[{}] Custom media type in the Accept header" />
-                  <entry key="route" value="r[true]  HTTP Verb + path as shown on https://developer.github.com/v3/" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/octokit/request-action/v2.x/action.yml" />
-                  <entry key="expiryTime" value="1745339220717" />
+                  <entry key="expiryTime" value="1746550685831" />
                   <entry key="githubUrl" value="https://github.com/octokit/request-action/tree/v2.x#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="octokit/request-action" />
                   <entry key="usesValue" value="octokit/request-action@v2.x" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="data" value=" Response body as string." />
-                  <entry key="headers" value=" Response headers as JSON string with lower cased header names." />
-                  <entry key="status" value=" Response status code." />
                 </map>
               </option>
             </GitHubAction>
