@@ -218,8 +218,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v3/action.yml" />
-                  <entry key="expiryTime" value="1745482236046" />
+                  <entry key="expiryTime" value="1746695030605" />
                   <entry key="githubUrl" value="https://github.com/peter-evans/create-pull-request/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -258,8 +260,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v7/action.yml" />
-                  <entry key="expiryTime" value="1745482233148" />
+                  <entry key="expiryTime" value="1746695030608" />
                   <entry key="githubUrl" value="https://github.com/peter-evans/create-pull-request/tree/v7#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
