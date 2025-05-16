@@ -367,6 +367,13 @@
         <entry key="stellarwp/github-actions/.github/workflows/phpcs.yml@main">
           <value>
             <GitHubAction>
+              <option name="inputs">
+                <map>
+                  <entry key="change_permissions" value="r[false] def[true] Whether to change file permissions to root" />
+                  <entry key="php_version" value="r[false] def[7.4] PHP Version" />
+                  <entry key="ref" value="r[true]  Git Commit Ref (branch, tag, or hash)" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stellarwp/github-actions/main/.github/workflows/phpcs.yml" />
@@ -376,6 +383,7 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="false" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="stellarwp/github-actions" />
                   <entry key="usesValue" value="stellarwp/github-actions/.github/workflows/phpcs.yml@main" />
