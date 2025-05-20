@@ -9,7 +9,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.docker/lint-xml-configuration" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -29,7 +29,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v2/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -47,36 +47,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="enableCrossOsArchive" value="r[false] def[false] An optional boolean when enabled, allows windows runners to save or restore caches that can be restored or saved respectively on other platforms" />
-                  <entry key="fail-on-cache-miss" value="r[false] def[false] Fail the workflow if cache entry is not found" />
-                  <entry key="key" value="r[true]  An explicit key for restoring and saving the cache" />
-                  <entry key="lookup-only" value="r[false] def[false] Check if a cache entry exists for the given input(s) (key, restore-keys) without downloading the cache" />
-                  <entry key="path" value="r[true]  A list of files, directories, and wildcard patterns to cache and restore" />
-                  <entry key="restore-keys" value="r[false]  An ordered multiline string listing the prefix-matched keys, that are used for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case." />
-                  <entry key="save-always" value="r[false] def[false] Run the post step to save the cache even if another step before fails" />
-                  <entry key="upload-chunk-size" value="r[false]  The chunk size used to split up large files during upload, in bytes" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v4/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/cache" />
                   <entry key="usesValue" value="actions/cache@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
                 </map>
               </option>
             </GitHubAction>
@@ -107,49 +89,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="filter" value="r[false] def[null]" />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="show-progress" value="r[false] def[true] Whether to show progress status output when fetching." />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="ssh-user" value="r[false] def[git]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v4/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="commit" value=" The commit SHA that was checked out" />
-                  <entry key="ref" value=" The branch, tag or SHA that was checked out" />
                 </map>
               </option>
             </GitHubAction>
@@ -162,7 +113,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v3/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-node/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -183,7 +134,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v4/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-node/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -321,7 +272,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v6/action.yml" />
-                  <entry key="expiryTime" value="1747742186006" />
+                  <entry key="expiryTime" value="1748953585610" />
                   <entry key="githubUrl" value="https://github.com/peter-evans/create-pull-request/tree/v6#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -363,7 +314,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shimataro/ssh-key-action/v2/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/shimataro/ssh-key-action/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -381,35 +332,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="coverage" value="r[false]  Setup code coverage driver." />
-                  <entry key="extensions" value="r[false]  Setup PHP extensions." />
-                  <entry key="ini-file" value="r[false] def[production] Set base ini file." />
-                  <entry key="ini-values" value="r[false]  Add values to php.ini." />
-                  <entry key="php-version" value="r[false]  Setup PHP version." />
-                  <entry key="php-version-file" value="r[false]  Setup PHP version from a file." />
-                  <entry key="tools" value="r[false]  Setup popular tools globally." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shivammathur/setup-php/v2/action.yml" />
-                  <entry key="expiryTime" value="1747742186006" />
+                  <entry key="expiryTime" value="1748953585610" />
                   <entry key="githubUrl" value="https://github.com/shivammathur/setup-php/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="shivammathur/setup-php" />
                   <entry key="usesValue" value="shivammathur/setup-php@v2" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="php-version" value=" PHP version in semver format" />
                 </map>
               </option>
             </GitHubAction>
@@ -418,23 +352,15 @@
         <entry key="stellarwp/github-actions/.github/workflows/phpcs.yml@main">
           <value>
             <GitHubAction>
-              <option name="inputs">
-                <map>
-                  <entry key="change_permissions" value="r[false] def[true] Whether to change file permissions to root" />
-                  <entry key="php_version" value="r[false] def[7.4] PHP Version" />
-                  <entry key="ref" value="r[true]  Git Commit Ref (branch, tag, or hash)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stellarwp/github-actions/main/.github/workflows/phpcs.yml" />
-                  <entry key="expiryTime" value="1747742186004" />
+                  <entry key="expiryTime" value="1748953585609" />
                   <entry key="githubUrl" value="https://github.com/stellarwp/github-actions/blob/main/.github/workflows/phpcs.yml" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="false" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="stellarwp/github-actions" />
                   <entry key="usesValue" value="stellarwp/github-actions/.github/workflows/phpcs.yml@main" />
@@ -450,7 +376,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/action-s3-utility/main/action.yml" />
-                  <entry key="expiryTime" value="1747742186006" />
+                  <entry key="expiryTime" value="1748953585610" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/action-s3-utility/tree/main#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -471,7 +397,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/process-changelog/action.yml" />
-                  <entry key="expiryTime" value="1747742186023" />
+                  <entry key="expiryTime" value="1748953585611" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/process-changelog#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
