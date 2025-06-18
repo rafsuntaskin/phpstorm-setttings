@@ -89,6 +89,30 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
+                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
+                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
+                  <entry key="filter" value="r[false] def[null]" />
+                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
+                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
+                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
+                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
+                  <entry key="ref" value="r[false] " />
+                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
+                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
+                  <entry key="show-progress" value="r[false] def[true] Whether to show progress status output when fetching." />
+                  <entry key="sparse-checkout" value="r[false] def[null]" />
+                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
+                  <entry key="ssh-key" value="r[false] " />
+                  <entry key="ssh-known-hosts" value="r[false] " />
+                  <entry key="ssh-strict" value="r[false] def[true]" />
+                  <entry key="ssh-user" value="r[false] def[git]" />
+                  <entry key="submodules" value="r[false] def[false]" />
+                  <entry key="token" value="r[false] def[${{ github.token }}]" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v4/action.yml" />
@@ -98,9 +122,16 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v4" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="commit" value=" The commit SHA that was checked out" />
+                  <entry key="ref" value=" The branch, tag or SHA that was checked out" />
                 </map>
               </option>
             </GitHubAction>
@@ -236,6 +267,32 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="add-paths" value="r[false] " />
+                  <entry key="assignees" value="r[false]  A comma or newline separated list of assignees (GitHub usernames)." />
+                  <entry key="author" value="r[false] def[${{ github.actor }} &lt;${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com&gt;]" />
+                  <entry key="base" value="r[false] " />
+                  <entry key="body" value="r[false] def[Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action] The body of the pull request." />
+                  <entry key="body-path" value="r[false]  The path to a file containing the pull request body. Takes precedence over `body`." />
+                  <entry key="branch" value="r[false] def[create-pull-request/patch] The pull request branch name." />
+                  <entry key="branch-suffix" value="r[false]  The branch suffix type when using the alternative branching strategy." />
+                  <entry key="commit-message" value="r[false] def[[create-pull-request] automated change] The message to use when committing changes." />
+                  <entry key="committer" value="r[false] def[github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;]" />
+                  <entry key="delete-branch" value="r[false] def[false]" />
+                  <entry key="draft" value="r[false] def[false] Create a draft pull request. It is not possible to change draft status after creation except through the web interface" />
+                  <entry key="git-token" value="r[false] " />
+                  <entry key="labels" value="r[false]  A comma or newline separated list of labels." />
+                  <entry key="milestone" value="r[false]  The number of the milestone to associate the pull request with." />
+                  <entry key="path" value="r[false] " />
+                  <entry key="push-to-fork" value="r[false] " />
+                  <entry key="reviewers" value="r[false]  A comma or newline separated list of reviewers (GitHub usernames) to request a review from." />
+                  <entry key="signoff" value="r[false] def[false] Add `Signed-off-by` line by the committer at the end of the commit log message." />
+                  <entry key="team-reviewers" value="r[false] " />
+                  <entry key="title" value="r[false] def[Changes by create-pull-request action] The title of the pull request." />
+                  <entry key="token" value="r[false] def[${{ github.token }}] GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v6/action.yml" />
@@ -245,9 +302,19 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="peter-evans/create-pull-request" />
                   <entry key="usesValue" value="peter-evans/create-pull-request@v6" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="pull-request-branch" value=" The pull request branch name" />
+                  <entry key="pull-request-head-sha" value=" The commit SHA of the pull request branch." />
+                  <entry key="pull-request-number" value=" The pull request number" />
+                  <entry key="pull-request-operation" value=" The pull request operation performed by the action, `created`, `updated` or `closed`." />
+                  <entry key="pull-request-url" value=" The URL of the pull request." />
                 </map>
               </option>
             </GitHubAction>
@@ -318,6 +385,17 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="coverage" value="r[false]  Setup code coverage driver." />
+                  <entry key="extensions" value="r[false]  Setup PHP extensions." />
+                  <entry key="ini-file" value="r[false] def[production] Set base ini file." />
+                  <entry key="ini-values" value="r[false]  Add values to php.ini." />
+                  <entry key="php-version" value="r[false]  Setup PHP version." />
+                  <entry key="php-version-file" value="r[false]  Setup PHP version from a file." />
+                  <entry key="tools" value="r[false]  Setup popular tools globally." />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shivammathur/setup-php/v2/action.yml" />
@@ -327,9 +405,15 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="shivammathur/setup-php" />
                   <entry key="usesValue" value="shivammathur/setup-php@v2" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="php-version" value=" PHP version in semver format" />
                 </map>
               </option>
             </GitHubAction>
@@ -380,6 +464,13 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="action-type" value="r[false] def[generate] Whether this is to generate or amend the changelog entries (generate or amend)" />
+                  <entry key="release-date" value="r[false] def[unreleased] The release date (format: YYYY-MM-DD) for which the action should generate the changelog (default: unreleased)" />
+                  <entry key="release-version" value="r[true]  The release version for which the action should generate the changelog (e.g. 4.5.0)" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/process-changelog/action.yml" />
@@ -389,9 +480,15 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="the-events-calendar/actions" />
                   <entry key="usesValue" value="the-events-calendar/actions/.github/actions/process-changelog@main" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="changelog" value=" The escaped changelog content" />
                 </map>
               </option>
             </GitHubAction>
