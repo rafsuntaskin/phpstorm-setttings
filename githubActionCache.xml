@@ -9,7 +9,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="./.docker/lint-xml-configuration" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
@@ -29,7 +29,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v2/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -47,36 +47,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="enableCrossOsArchive" value="r[false] def[false] An optional boolean when enabled, allows windows runners to save or restore caches that can be restored or saved respectively on other platforms" />
-                  <entry key="fail-on-cache-miss" value="r[false] def[false] Fail the workflow if cache entry is not found" />
-                  <entry key="key" value="r[true]  An explicit key for restoring and saving the cache" />
-                  <entry key="lookup-only" value="r[false] def[false] Check if a cache entry exists for the given input(s) (key, restore-keys) without downloading the cache" />
-                  <entry key="path" value="r[true]  A list of files, directories, and wildcard patterns to cache and restore" />
-                  <entry key="restore-keys" value="r[false]  An ordered multiline string listing the prefix-matched keys, that are used for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case." />
-                  <entry key="save-always" value="r[false] def[false] Run the post step to save the cache even if another step before fails" />
-                  <entry key="upload-chunk-size" value="r[false]  The chunk size used to split up large files during upload, in bytes" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v4/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/cache" />
                   <entry key="usesValue" value="actions/cache@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate an exact match was found for the primary key" />
                 </map>
               </option>
             </GitHubAction>
@@ -107,49 +89,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="clean" value="r[false] def[true] Whether to execute `git clean -ffdx &amp;&amp; git reset --hard HEAD` before fetching" />
-                  <entry key="fetch-depth" value="r[false] def[1] Number of commits to fetch. 0 indicates all history for all branches and tags." />
-                  <entry key="fetch-tags" value="r[false] def[false] Whether to fetch tags, even if fetch-depth &gt; 0." />
-                  <entry key="filter" value="r[false] def[null]" />
-                  <entry key="github-server-url" value="r[false]  The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com" />
-                  <entry key="lfs" value="r[false] def[false] Whether to download Git-LFS files" />
-                  <entry key="path" value="r[false]  Relative path under $GITHUB_WORKSPACE to place the repository" />
-                  <entry key="persist-credentials" value="r[false] def[true] Whether to configure the token or SSH key with the local git config" />
-                  <entry key="ref" value="r[false] " />
-                  <entry key="repository" value="r[false] def[${{ github.repository }}] Repository name with owner. For example, actions/checkout" />
-                  <entry key="set-safe-directory" value="r[false] def[true] Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory &lt;path&gt;`" />
-                  <entry key="show-progress" value="r[false] def[true] Whether to show progress status output when fetching." />
-                  <entry key="sparse-checkout" value="r[false] def[null]" />
-                  <entry key="sparse-checkout-cone-mode" value="r[false] def[true]" />
-                  <entry key="ssh-key" value="r[false] " />
-                  <entry key="ssh-known-hosts" value="r[false] " />
-                  <entry key="ssh-strict" value="r[false] def[true]" />
-                  <entry key="ssh-user" value="r[false] def[git]" />
-                  <entry key="submodules" value="r[false] def[false]" />
-                  <entry key="token" value="r[false] def[${{ github.token }}]" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v4/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/checkout" />
                   <entry key="usesValue" value="actions/checkout@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="commit" value=" The commit SHA that was checked out" />
-                  <entry key="ref" value=" The branch, tag or SHA that was checked out" />
                 </map>
               </option>
             </GitHubAction>
@@ -162,7 +113,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v3/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-node/tree/v3#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -180,41 +131,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="always-auth" value="r[false] def[false] Set always-auth in npmrc." />
-                  <entry key="architecture" value="r[false]  Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default." />
-                  <entry key="cache" value="r[false]  Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm." />
-                  <entry key="cache-dependency-path" value="r[false]  Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies." />
-                  <entry key="check-latest" value="r[false] def[false] Set this option if you want the action to check for the latest available version that satisfies the version spec." />
-                  <entry key="mirror" value="r[false]  Used to specify an alternative mirror to downlooad Node.js binaries from" />
-                  <entry key="mirror-token" value="r[false]  The token used as Authorization header when fetching from the mirror" />
-                  <entry key="node-version" value="r[false]  Version Spec of the version to use. Examples: 12.x, 10.15.1, &gt;=10.15.0." />
-                  <entry key="node-version-file" value="r[false]  File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions." />
-                  <entry key="registry-url" value="r[false]  Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN." />
-                  <entry key="scope" value="r[false]  Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/)." />
-                  <entry key="token" value="r[false] def[${{ github.server_url == 'https://github.com' &amp;&amp; github.token || '' }}] Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/setup-node/v4/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/actions/setup-node/tree/v4#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="actions/setup-node" />
                   <entry key="usesValue" value="actions/setup-node@v4" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="cache-hit" value=" A boolean value to indicate if a cache was hit." />
-                  <entry key="node-version" value=" The installed node version." />
                 </map>
               </option>
             </GitHubAction>
@@ -341,54 +269,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="add-paths" value="r[false] " />
-                  <entry key="assignees" value="r[false]  A comma or newline separated list of assignees (GitHub usernames)." />
-                  <entry key="author" value="r[false] def[${{ github.actor }} &lt;${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com&gt;]" />
-                  <entry key="base" value="r[false] " />
-                  <entry key="body" value="r[false] def[Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action] The body of the pull request." />
-                  <entry key="body-path" value="r[false]  The path to a file containing the pull request body. Takes precedence over `body`." />
-                  <entry key="branch" value="r[false] def[create-pull-request/patch] The pull request branch name." />
-                  <entry key="branch-suffix" value="r[false]  The branch suffix type when using the alternative branching strategy." />
-                  <entry key="commit-message" value="r[false] def[[create-pull-request] automated change] The message to use when committing changes." />
-                  <entry key="committer" value="r[false] def[github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;]" />
-                  <entry key="delete-branch" value="r[false] def[false]" />
-                  <entry key="draft" value="r[false] def[false] Create a draft pull request. It is not possible to change draft status after creation except through the web interface" />
-                  <entry key="git-token" value="r[false] " />
-                  <entry key="labels" value="r[false]  A comma or newline separated list of labels." />
-                  <entry key="milestone" value="r[false]  The number of the milestone to associate the pull request with." />
-                  <entry key="path" value="r[false] " />
-                  <entry key="push-to-fork" value="r[false] " />
-                  <entry key="reviewers" value="r[false]  A comma or newline separated list of reviewers (GitHub usernames) to request a review from." />
-                  <entry key="signoff" value="r[false] def[false] Add `Signed-off-by` line by the committer at the end of the commit log message." />
-                  <entry key="team-reviewers" value="r[false] " />
-                  <entry key="title" value="r[false] def[Changes by create-pull-request action] The title of the pull request." />
-                  <entry key="token" value="r[false] def[${{ github.token }}] GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v6/action.yml" />
-                  <entry key="expiryTime" value="1751375278330" />
+                  <entry key="expiryTime" value="1752586525198" />
                   <entry key="githubUrl" value="https://github.com/peter-evans/create-pull-request/tree/v6#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="peter-evans/create-pull-request" />
                   <entry key="usesValue" value="peter-evans/create-pull-request@v6" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="pull-request-branch" value=" The pull request branch name" />
-                  <entry key="pull-request-head-sha" value=" The commit SHA of the pull request branch." />
-                  <entry key="pull-request-number" value=" The pull request number" />
-                  <entry key="pull-request-operation" value=" The pull request operation performed by the action, `created`, `updated` or `closed`." />
-                  <entry key="pull-request-url" value=" The URL of the pull request." />
                 </map>
               </option>
             </GitHubAction>
@@ -419,25 +311,15 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="config" value="r[false]  SSH config" />
-                  <entry key="if_key_exists" value="r[false] def[fail] replace / ignore / fail" />
-                  <entry key="key" value="r[true]  SSH private key" />
-                  <entry key="known_hosts" value="r[true]  public keys of SSH servers" />
-                  <entry key="name" value="r[false] def[id_rsa] SSH key file name (default: id_rsa)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shimataro/ssh-key-action/v2/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525201" />
                   <entry key="githubUrl" value="https://github.com/shimataro/ssh-key-action/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="shimataro/ssh-key-action" />
                   <entry key="usesValue" value="shimataro/ssh-key-action@v2" />
@@ -471,35 +353,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="coverage" value="r[false]  Setup code coverage driver." />
-                  <entry key="extensions" value="r[false]  Setup PHP extensions." />
-                  <entry key="ini-file" value="r[false] def[production] Set base ini file." />
-                  <entry key="ini-values" value="r[false]  Add values to php.ini." />
-                  <entry key="php-version" value="r[false]  Setup PHP version." />
-                  <entry key="php-version-file" value="r[false]  Setup PHP version from a file." />
-                  <entry key="tools" value="r[false]  Setup popular tools globally." />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shivammathur/setup-php/v2/action.yml" />
-                  <entry key="expiryTime" value="1751375278330" />
+                  <entry key="expiryTime" value="1752586525198" />
                   <entry key="githubUrl" value="https://github.com/shivammathur/setup-php/tree/v2#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="shivammathur/setup-php" />
                   <entry key="usesValue" value="shivammathur/setup-php@v2" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="php-version" value=" PHP version in semver format" />
                 </map>
               </option>
             </GitHubAction>
@@ -511,7 +376,7 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/stellarwp/github-actions/main/.github/workflows/phpcs.yml" />
-                  <entry key="expiryTime" value="1751375278328" />
+                  <entry key="expiryTime" value="1752586525197" />
                   <entry key="githubUrl" value="https://github.com/stellarwp/github-actions/blob/main/.github/workflows/phpcs.yml" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
@@ -532,22 +397,15 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/action-s3-utility/main/action.yml" />
-                  <entry key="expiryTime" value="1751375278330" />
+                  <entry key="expiryTime" value="1752586525198" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/action-s3-utility/tree/main#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="the-events-calendar/action-s3-utility" />
                   <entry key="usesValue" value="the-events-calendar/action-s3-utility@main" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="exists" value=" With the exists s3 helper command - \'true\' if file or directory exists, \'false\' otherwise" />
-                  <entry key="ls_output" value=" Output from \'aws s3 ls\' command" />
                 </map>
               </option>
             </GitHubAction>
@@ -557,31 +415,18 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
-              <option name="inputs">
-                <map>
-                  <entry key="action-type" value="r[false] def[generate] Whether this is to generate or amend the changelog entries (generate or amend)" />
-                  <entry key="release-date" value="r[false] def[unreleased] The release date (format: YYYY-MM-DD) for which the action should generate the changelog (default: unreleased)" />
-                  <entry key="release-version" value="r[true]  The release version for which the action should generate the changelog (e.g. 4.5.0)" />
-                </map>
-              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/process-changelog/action.yml" />
-                  <entry key="expiryTime" value="1751375278337" />
+                  <entry key="expiryTime" value="1752586525202" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/process-changelog#readme" />
                   <entry key="ignoredInputs" value="" />
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
-                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="the-events-calendar/actions" />
                   <entry key="usesValue" value="the-events-calendar/actions/.github/actions/process-changelog@main" />
-                </map>
-              </option>
-              <option name="outputs">
-                <map>
-                  <entry key="changelog" value=" The escaped changelog content" />
                 </map>
               </option>
             </GitHubAction>
