@@ -285,6 +285,32 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="add-paths" value="r[false] " />
+                  <entry key="assignees" value="r[false]  A comma or newline separated list of assignees (GitHub usernames)." />
+                  <entry key="author" value="r[false] def[${{ github.actor }} &lt;${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com&gt;]" />
+                  <entry key="base" value="r[false] " />
+                  <entry key="body" value="r[false] def[Automated changes by [create-pull-request](https://github.com/peter-evans/create-pull-request) GitHub action] The body of the pull request." />
+                  <entry key="body-path" value="r[false]  The path to a file containing the pull request body. Takes precedence over `body`." />
+                  <entry key="branch" value="r[false] def[create-pull-request/patch] The pull request branch name." />
+                  <entry key="branch-suffix" value="r[false]  The branch suffix type when using the alternative branching strategy." />
+                  <entry key="commit-message" value="r[false] def[[create-pull-request] automated change] The message to use when committing changes." />
+                  <entry key="committer" value="r[false] def[github-actions[bot] &lt;41898282+github-actions[bot]@users.noreply.github.com&gt;]" />
+                  <entry key="delete-branch" value="r[false] def[false]" />
+                  <entry key="draft" value="r[false] def[false] Create a draft pull request. It is not possible to change draft status after creation except through the web interface" />
+                  <entry key="git-token" value="r[false] " />
+                  <entry key="labels" value="r[false]  A comma or newline separated list of labels." />
+                  <entry key="milestone" value="r[false]  The number of the milestone to associate the pull request with." />
+                  <entry key="path" value="r[false] " />
+                  <entry key="push-to-fork" value="r[false] " />
+                  <entry key="reviewers" value="r[false]  A comma or newline separated list of reviewers (GitHub usernames) to request a review from." />
+                  <entry key="signoff" value="r[false] def[false] Add `Signed-off-by` line by the committer at the end of the commit log message." />
+                  <entry key="team-reviewers" value="r[false] " />
+                  <entry key="title" value="r[false] def[Changes by create-pull-request action] The title of the pull request." />
+                  <entry key="token" value="r[false] def[${{ github.token }}] GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT)" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/peter-evans/create-pull-request/v6/action.yml" />
@@ -294,9 +320,19 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="peter-evans/create-pull-request" />
                   <entry key="usesValue" value="peter-evans/create-pull-request@v6" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="pull-request-branch" value=" The pull request branch name" />
+                  <entry key="pull-request-head-sha" value=" The commit SHA of the pull request branch." />
+                  <entry key="pull-request-number" value=" The pull request number" />
+                  <entry key="pull-request-operation" value=" The pull request operation performed by the action, `created`, `updated` or `closed`." />
+                  <entry key="pull-request-url" value=" The URL of the pull request." />
                 </map>
               </option>
             </GitHubAction>
@@ -448,6 +484,13 @@
           <value>
             <GitHubAction>
               <option name="action" value="true" />
+              <option name="inputs">
+                <map>
+                  <entry key="action-type" value="r[false] def[generate] Whether this is to generate or amend the changelog entries (generate or amend)" />
+                  <entry key="release-date" value="r[false] def[unreleased] The release date (format: YYYY-MM-DD) for which the action should generate the changelog (default: unreleased)" />
+                  <entry key="release-version" value="r[true]  The release version for which the action should generate the changelog (e.g. 4.5.0)" />
+                </map>
+              </option>
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/process-changelog/action.yml" />
@@ -457,9 +500,15 @@
                   <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
+                  <entry key="isResolved" value="true" />
                   <entry key="isSuppressed" value="false" />
                   <entry key="name" value="the-events-calendar/actions" />
                   <entry key="usesValue" value="the-events-calendar/actions/.github/actions/process-changelog@main" />
+                </map>
+              </option>
+              <option name="outputs">
+                <map>
+                  <entry key="changelog" value=" The escaped changelog content" />
                 </map>
               </option>
             </GitHubAction>
