@@ -6,6 +6,12 @@
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
+          <stepping-filters>
+            <stepping-filter url-pattern="node_modules" />
+            <stepping-filter url-pattern="react" />
+            <stepping-filter url-pattern="react-dom" />
+            <stepping-filter url-pattern="scheduler" />
+          </stepping-filters>
         </configuration>
       </debugger>
     </debuggers>
