@@ -474,8 +474,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/shivammathur/setup-php/2.25.1/action.yml" />
-                  <entry key="expiryTime" value="1756382754060" />
+                  <entry key="expiryTime" value="1757593006894" />
                   <entry key="githubUrl" value="https://github.com/shivammathur/setup-php/tree/2.25.1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
