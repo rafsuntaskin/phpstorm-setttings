@@ -47,8 +47,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/cache/v1/action.yml" />
-                  <entry key="expiryTime" value="1756402598368" />
+                  <entry key="expiryTime" value="1757612799037" />
                   <entry key="githubUrl" value="https://github.com/actions/cache/tree/v1#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -129,8 +131,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2.3.4/action.yml" />
-                  <entry key="expiryTime" value="1756402599167" />
+                  <entry key="expiryTime" value="1757612799015" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2.3.4#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -148,8 +152,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v2.4.0/action.yml" />
-                  <entry key="expiryTime" value="1756402599240" />
+                  <entry key="expiryTime" value="1757612799016" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v2.4.0#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -167,8 +173,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v3/action.yml" />
-                  <entry key="expiryTime" value="1756402598055" />
+                  <entry key="expiryTime" value="1757612799037" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v3#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -186,8 +194,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/actions/checkout/v3.5.2/action.yml" />
-                  <entry key="expiryTime" value="1756402594715" />
+                  <entry key="expiryTime" value="1757612799037" />
                   <entry key="githubUrl" value="https://github.com/actions/checkout/tree/v3.5.2#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -557,8 +567,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/add-changelog/action.yml" />
-                  <entry key="expiryTime" value="1756402599762" />
+                  <entry key="expiryTime" value="1757612799037" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/add-changelog#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -576,8 +588,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/generate-pot/action.yml" />
-                  <entry key="expiryTime" value="1756402599757" />
+                  <entry key="expiryTime" value="1757612799038" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/generate-pot#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
@@ -616,8 +630,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/the-events-calendar/actions/main/.github/actions/push-translations/action.yml" />
-                  <entry key="expiryTime" value="1756402599759" />
+                  <entry key="expiryTime" value="1757612799037" />
                   <entry key="githubUrl" value="https://github.com/the-events-calendar/actions/tree/main/.github/actions/push-translations#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
