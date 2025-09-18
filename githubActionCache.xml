@@ -49,8 +49,10 @@
               <option name="metaData">
                 <map>
                   <entry key="downloadUrl" value="https://raw.githubusercontent.com/BobAnkh/add-contributors/v0.0.8/action.yml" />
-                  <entry key="expiryTime" value="1758144467271" />
+                  <entry key="expiryTime" value="1759356661877" />
                   <entry key="githubUrl" value="https://github.com/BobAnkh/add-contributors/tree/v0.0.8#readme" />
+                  <entry key="ignoredInputs" value="" />
+                  <entry key="ignoredOutputs" value="" />
                   <entry key="isAction" value="true" />
                   <entry key="isLocal" value="false" />
                   <entry key="isSuppressed" value="false" />
