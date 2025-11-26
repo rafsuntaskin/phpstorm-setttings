@@ -55,4 +55,7 @@
     <mouse-shortcut keystroke="control alt button1" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="com.github.dilika.tailwindsmartplugin.actions.FoldTailwindClasses">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
 </keymap>
