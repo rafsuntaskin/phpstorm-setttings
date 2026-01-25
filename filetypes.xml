@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="teampick.js" type="AUTO_DETECTED" />
       <mapping pattern="orders-tc-tickets.php" type="AUTO_DETECTED" />
+      <mapping pattern="wp" type="AUTO_DETECTED" />
       <mapping pattern=".architecture_arm64" type="PLAIN_TEXT" />
       <mapping pattern=".editor-config" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
